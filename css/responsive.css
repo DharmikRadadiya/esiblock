@@ -1,0 +1,38 @@
+/* @media screen and (min-width:1200px){
+    .container{
+        max-width: 1170px;
+    }
+}
+
+@media screen and (min-width:1400px){
+    .container{
+        max-width: 1320px;
+    }
+} */
+
+@media screen and (max-width:500px){
+    .contact_info{
+        display: block!important;
+    }
+    .contact_info li:first-child{
+        margin-bottom: 1rem;
+    }
+}
+
+@media screen and (min-width:768px){
+    .ps{
+        padding-left: 90px;
+    }
+}
+
+@media screen and (min-width:992px){
+    .f-head h2{
+        width: 730px;
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .discount {
+        text-align: center;
+    }
+}
